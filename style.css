@@ -177,6 +177,8 @@ li a{
     height: 350px;
     transition: 2s;
     opacity: 0.5;
+    
+    
 }
 
 .imagine-title2:hover{
@@ -287,9 +289,160 @@ li a{
     font-size: 20px;
     margin-left: 10px;
     margin-top: 10px;
-    display: inline-block;
+    
 }
 
 
-textPath
+.form{
+    display: flex;
+    justify-content: space-between;
+    height: 390px;
+    width: 100%;
+    background-color: #2A2F4A ;
+    margin-top: 2px;
 
+}
+.booking-from{
+    width: 50%;
+    height: 320px;
+    margin-left: 70px;
+    box-shadow: 24px 24px 40px lightgray;
+    margin-top: 30px;
+    padding-left: 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 40px;
+    
+}
+
+.price-list{
+    width: 50%;
+    height: 320px;
+    margin-left: 70px;
+    box-shadow: 24px 24px 40px lightgray;
+    margin-top: 30px;
+    padding-left: 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-right: 5%;
+}
+#form-list1{
+    margin-left: 5px;
+    padding: 5px;
+    width: 190px;
+    margin-top: 20px;
+}
+
+#form-list2{
+    margin-left: 10px;
+    padding: 5px;
+    width: 190px;
+    margin-left:34px;
+    margin-top: 5px;
+
+}
+
+#form-list3{
+    margin-left: 10px;
+    padding: 5px;
+    width: 190px;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+#form-list4{
+    margin-left: 1px;
+    padding: 5px;
+    width: 190px;
+    margin-top: 5px;
+}
+
+#gender{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.booking-from h4{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 5%;
+    letter-spacing: 8px;
+    border-bottom: 1px solid white;
+    width: 250px;
+}
+
+/* ends registration form*/
+
+table{
+    margin-top: 20px;
+    margin-left: 90px;
+    border: 2px solid white;
+    padding: 8px;
+    border-collapse: collapse ;
+}
+
+.price-list h4{
+    font-size: 23px;
+   margin-top: 5px;
+   margin-left: 18%;
+   letter-spacing: 5px;
+   border-bottom: 2px dotted white;
+   width: 250px;
+}
+
+th,td{
+    border: 2px solid white;
+    padding: 5px;
+    text-align: center;
+    
+}
+form a{
+    border: none;
+    color: white;
+    background-color: darkgrey;
+    padding: 3px 7px;
+    margin-top: 6px;
+    margin-left: 50px;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+/*form ends*/
+
+.end{
+    height: 270px;
+    width: 100%;
+    background-color: deepskyblue;
+    margin-top: 24px;
+    
+}
+.footers{
+    margin-left: 30%;
+
+}
+
+.end h4{
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 6px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.end p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 7px;
+    margin-bottom: 14px;
+}
+.end a{
+    padding: 7px;
+    font-size: 50px;
+    color: white;
+    margin-top: 7px;
+    text-decoration: none;
+}
